@@ -1,11 +1,12 @@
 import './App.css';
+import Banner from './Component/Header/Banner/Banner';
+import Header from './Component/Header/Header';
 
 function App() {
   return (
    <>
-     <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+   <Header/>
+   <Banner/>
    </>
   );
 }
